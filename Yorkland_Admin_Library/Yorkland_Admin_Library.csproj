@@ -62,7 +62,14 @@
     <Compile Include="DriverFactory\DriverManager.cs" />
     <Compile Include="DriverFactory\FireFoxDriverManager.cs" />
     <Compile Include="DriverFactory\IEDriverManager.cs" />
+    <Compile Include="PageObject\BalancePage.cs" />
     <Compile Include="PageObject\BasePageObject.cs" />
+    <Compile Include="PageObject\CommentPage.cs" />
+    <Compile Include="PageObject\HomePage.cs" />
+    <Compile Include="PageObject\LoginPage.cs" />
+    <Compile Include="PageObject\SignUpPage.cs" />
+    <Compile Include="PageObject\StudentInfoPage.cs" />
+    <Compile Include="PageObject\StudentPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebControls\ButtonWebControl.cs" />
     <Compile Include="WebControls\CheckBoxWebControl.cs" />

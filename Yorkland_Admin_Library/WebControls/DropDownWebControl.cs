@@ -35,13 +35,13 @@ namespace Yorkland_Admin_Library.WebControls
             dropDown.SelectByValue(value);
         }
 
-        public void DropDownSelectByRandom()
+        public int DropDownSelectByRandom()
         {
             SelectElement dropDown = new SelectElement(control);
             IList<IWebElement> dropDownElements = dropDown.Options;
             Random num = new Random();
             int index = num.Next(dropDownElements.Count);
-            dropDown.SelectByIndex(index);
+            return index;
         }
     }
 }
